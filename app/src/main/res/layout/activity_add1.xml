@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user name" />
+        <EditText
+            android:id="@+id/et_hall_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email" />
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone" />
+        <EditText
+            android:id="@+id/et_customer_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="city" />
+
+        <EditText
+            android:id="@+id/et_event_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="address" />
+
+        <EditText
+            android:id="@+id/et_no_of_dishes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="payment made" />
+
+        <EditText
+            android:id="@+id/et_no_of_guests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="payment done to" />
+
+        <Button
+            android:id="@+id/btn_add_donor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#536DFE"
+            android:onClick="addDonor"
+            android:text="Add Data" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back" />
+    </LinearLayout>
+</ScrollView>
